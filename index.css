@@ -1,0 +1,59 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #321B08;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Estilização do cabeçalho*/
+header{
+    background-color: #FFE4CA;
+}
+
+.menu{
+    width:90%;
+    position: relative;
+    margin: auto;
+}
+
+.logo{
+    width: 10%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+nav{
+    right: 0;
+    position: absolute;
+    top: 35%;
+}
+
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;
+}
+
+nav a{
+    text-transform: uppercase; 
+    color: #321B08;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #8b5e36;
+    text-decoration: none;
+}
+
+/*Estilização do Main*/
+
+/*Estilização da Section do Carrossel*/
+
+
+.img-album{
+    object-fit: cover;
+}
